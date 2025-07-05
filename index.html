@@ -4,35 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Bootstrap 4</title>
+    <title>Getting started Bootstrap 4</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <h4>Content</h4>
+    <!-- let's do some login form with bootstrap 4 -->
 
-          <p>
-            Kehidupan mengajarkan kita arti kesabaran melalui setiap rintangan
-            yang datang, agar kita menjadi pribadi yang lebih kuat.
-          </p>
-          <p>
-            Dalam perjalanan hidup, kita akan bertemu banyak orang, namun hanya
-            beberapa yang benar-benar tulus menemani hingga akhir.
-          </p>
-          <p>
-            Strategi pembuatan konten diperlukan agar pesan yang disampaikan
-            lebih terarah, efektif, dan sesuai dengan tujuan yang ingin dicapai.
-          </p>
-          <p>
-            Kadang kebahagiaan datang dari hal-hal sederhana, seperti senyum
-            orang tercinta atau waktu tenang bersama diri sendiri.
-          </p>
-          <p>
-            Kegagalan bukan akhir dari segalanya, melainkan kesempatan untuk
-            belajar dan memperbaiki langkah agar lebih baik ke depan.
-          </p>
+    <div class="container">
+      <div
+        class="row justify-content-center align-items-center"
+        style="height: 100vh"
+      >
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-header">LOGIN</div>
+            <div class="card-body">
+              <form action="" autocomplete="off">
+                <div class="form-group mb-3">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group mb-3">
+                  <label for="password">Password</label>
+                  <input
+                    type="text"
+                    name="password"
+                    id="password"
+                    class="form-control"
+                  />
+                </div>
+                <button type="submit" class="btn btn-primary">LOGIN</button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
